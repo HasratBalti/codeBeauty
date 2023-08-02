@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: montserrat;
+}
+ .menu{
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+}
+.logo{
+    font-style: 45px;
+    font-weight: bold;
+    color:white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+.menu ul li{
+    float:right;
+}

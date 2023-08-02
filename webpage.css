@@ -1,0 +1,104 @@
+
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: scroll;
+    }
+    #box{
+        padding:30px;
+        text-align: center;
+        text-shadow:3px 3px black , 5px 5px gray;
+        background: fixed;
+        color: white;
+        background: rgba(100, 3, 119, 0.808);
+    }
+    #box img{
+        width: auto;
+        height:70px;
+        justify-content: center;
+    }
+    #box h1{
+         font-size:34px;
+    }
+    #menu{
+        background: #000;
+       overflow: hidden;
+    }
+    #menu a{
+        display:block;
+        color:white;
+        text-decoration: none;
+        text-align: center;
+        padding:16px 20px;
+        float: left;
+    }
+    #menu.copyright{
+        float:right;
+    }
+    #menu a:hover{
+        background:rgba(100, 3, 119, 0.808);
+    }
+    #box1 h2{
+        text-align: center;
+        padding-top:40px;
+    }
+    #box1 video{
+        hight:100vh;
+        padding: 0px;
+        background-color: grey;
+    }
+    #box2 h2{
+         text-align: center;
+    }
+    iframe{
+        padding: 0px 0px;
+    }
+    img{
+        padding:0px 0px
+    }
+    #box3 img{
+         width:300px;
+         height: 300px;
+         padding:20px 500px;
+         text-align: justify;
+    }
+    #box3 h3{
+        text-align: center;
+        overflow: hidden;
+    }
+    #box3 h4{
+        text-align: center;
+        padding:20px;
+    }
+    #box3 h5{
+        text-align: center;
+        padding: 20px;
+        margin:0px 100px;
+    }
+  .menu{
+       text-align: center;
+       margin:2px,50px;
+       align-items: center;
+       color:white;
+    }
+    .menu:hover{
+      color:rgb(3, 2, 3);
+    }
+    footer{
+        overflow:hidden;
+        background: rgb(15, 14, 14);
+    }
+    footer a{
+        display: block;
+        padding: 20px 30px;
+        color:white;
+        text-decoration: none;
+        float:left;
+    }
+    footer a:hover{
+        background:rgba(100, 3, 119, 0.808);
+    }
+    .copyright{
+        float:left;
+    }

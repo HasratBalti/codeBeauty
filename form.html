@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Submition</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        input[type=text] , select, textarea{
+            width: 100%;
+            border:1px solid black;
+            border-radius:4px;
+            resize: vertical;
+            padding: 3px;
+            border: none;
+            border-bottom: 2px  solid #646464;
+            border-radius: 0;
+            outline: none;
+            background: transparent;
+        }
+        label{
+            padding:0 5px;
+            display: inline-block;
+            color: antiquewhite;
+        }
+        input[type=submit]{
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background: #83006f;
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #f2f2f2;
+        }
+        input[type=submit]:hover{
+            background-color:rgb(49, 2, 35);
+        }
+        .container{
+            border-radius:5px;
+            background-color:#f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+        .col-25{
+            float:left;
+            width:75%;
+            margin-top:6px;
+        }
+        .col-75{
+            float:left;
+            width:75%;
+            margin-top:6px;
+            background:transparent;
+        }
+        .row::after{
+            content:"";
+            display:table;
+            clear:both;
+        }
+        textarea{
+            color: black;
+            outline: none;
+            border: none;
+            background: transparent;
+            border-bottom: 2px  solid #646464;
+        }
+        form{
+            background-color: rgb(168, 12, 199);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #f2f2f2;
+            box-shadow: 3px 5px 14px rgba(49, 2, 35,0.5);
+        }
+        form h2{
+            color:rgb(53, 52, 52);
+            text-shadow: 3px 3px 2px darkslategrey;
+        }
+        .option {
+            background: transparent;
+        }
+        @media screen and(max-width:600px){
+            .col-25,.col-75 ,input[type=submit]{
+                width:100%;
+                margin-top:0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<form action="#" >
+    <div class="head">
+        <h2>Contect us</h2>
+    </div>
+    <div class="row">
+       <div class="col-25">
+           <label for="fname">First Name</label>
+       </div> 
+       <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="your name..." autocomplete="none">
+       </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+         <label for="lname">last Name</label>
+        </div>
+        <div class="col-75">
+           <input type="text" id="lname" name="lastname" placeholder="last name..." autocomplete="none"/>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-25">
+         <label for="country">Country</label>
+    </div>
+    <div class="col-75 option">
+        <select name="country" id="country">
+            <option value="pakistan">Option</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="Inda">India</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+        </select>
+    </div>
+    </div>
+    <div class="row">
+       <div class="col-25">
+        <label for="subjection">Subject</label>
+       </div>
+       <div class="col-75">
+           <textarea name="message" id="message" cols="3" rows="3" placeholder="write message..." ></textarea>
+            <!-- <textarea id="message" name="message" rows="4" cols="50"  placeholder="Write something..." ></textarea> -->
+       </div>
+    </div>
+    <br>
+    <div class="row">
+        <input type="submit" value="submit">
+    </div>
+</form>
+</div>
+</body>
+</html>

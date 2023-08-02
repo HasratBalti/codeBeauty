@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive html</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        *{
+            box-sizing:border-box;
+        }
+        h1{
+            color:white;
+            text-align:center;
+        }
+        h3{
+            color:white;
+            text-align:center;
+        }
+        .menu{
+            float:left;
+             width:20%;
+        }
+        .menuitem{
+            padding:9px;
+            margin-top:27px;
+            border-bottom: 2px solid black;
+        }
+        .main{
+            float:left;
+            width:60%;
+            color:white;
+            background-color: darkgrey;
+            padding:0 20px;
+            overflow:hidden;
+        }
+        .right{
+            background-color:darkkhaki;
+            float:left;
+            width:20%;
+            height: 450px;
+            padding:10px 15px;
+            margin-top:0px;
+        }
+        @media only screen and (max-width:800px){
+            .main{
+                width:90px;
+                padding:0%;
+            }
+            .right{
+                width:100%;
+            }
+        }
+        @media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div style="background-color:darkslategrey" >
+        <h1>Cinque Terre</h1>
+        <h3>Resize the browser window</h3>
+    </div>
+    <div style="overflow:auto">
+        <div class="menu" style="color:blue; background-color: darkkhaki; height:450px;">
+            <div class="menuitem">The walk</div>
+            <div class="menuitem">Transport</div>
+            <div class="menuitem">History</div>
+            <div class="menuitem">Gallery</div>
+        </div>
+        <div class="main">
+            <h2>The Walk</h2>
+            <p style="color:blue">The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+            <img src="images/wawo.jpg" width="600px" height="300px">
+          </div>
+          <div class="right">
+            <h2 style="color:blue"><i>What?</i></h2>
+            <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+            <h2 style="color:blue">Where?</h2>
+            <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+            <h2 style="color:blue">Price?</h2>
+            <p>The Walk is free!</p>
+          </div>
+    </div>
+    <div style="background-color:darkgray;text-align:center;padding:10px;margin-top:9px;font-size:20px; color:blue"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+
+</body>
+</html>

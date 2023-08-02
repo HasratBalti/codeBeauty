@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table CSS</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        table{
+            width: 500px;
+            table-layout: auto;
+            margin:100px 350px;
+          border-collapse: collapse;
+        }
+        table ,td,th{
+             border:1px solid black;
+        }
+        td th{
+            vertical-align: top;
+            padding: 15px 20px;
+        }
+        tr:hover{
+            background: #f2f2f2;
+        }
+        tr:nth-child(even){
+            background: #5c5353;
+        }
+        caption{
+            caption-side: top;
+            color:rgb(109, 7, 70);
+        }
+        h1{
+             text-align: center; 
+             color:rgb(202, 0, 0);           
+        }
+    </style>
+</head>
+<body>
+    <h1>Trust our company</h1>
+    <table>
+        <caption>Employe Records</caption>
+        <tr>
+        <th>First name</th>
+        <th>Second name</th>
+        <th>Saving</th>
+        </tr>
+        <tr>
+            <td>kumail Lorem ipsum dolor, consectetur iure, tempora magnam dolorum officia placeat quia. Aperiam, nostrum! Totam, fugit!</td>
+            <td>abbas</td>
+            <td>$230000</td>
+        </tr>
+        <tr>
+            <td>Jameel</td>
+            <td>Shabbir</td>
+            <td>$320000</td>
+        </tr>
+        <tr>
+            <td>Arif</td>
+            <td>Shabbir</td>
+            <td>$5500000</td>
+        </tr>
+        <tr>
+            <td>Jameel</td>
+            <td>Shabbir</td>
+            <td>$320000</td>
+        </tr>
+        <tr>
+            <td>Arif</td>
+            <td>Shabbir</td>
+            <td>$5500000</td>
+        </tr> <tr>
+            <td>Jameel</td>
+            <td>Shabbir</td>
+            <td>$320000</td>
+        </tr>
+        <tr>
+            <td>Arif</td>
+            <td>Shabbir</td>
+            <td>$5500000</td>
+        </tr>
+        <tr>
+            <td>Ahmad</td>
+            <td>Shabbir</td>
+            <td>$900000</td>
+        </tr>
+    </table>
+</body>
+</html>

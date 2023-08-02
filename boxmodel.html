@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Font boxmodel</title>
+ <style>
+    h1{
+        font-size:30px;
+        padding:4px;
+        margin-top:0px;
+        background-color:blue;
+        color:white;
+        text-align: center;
+        text-transform:uppercase;
+        text-shadow:3px -1px 0px darkkhaki;
+    }
+    #bol{
+        width:500px;
+        background-color: tan;
+        float:right;
+        padding:30px;
+        text-align: justify;
+        height:400px;
+        overflow:scroll;
+        line-height:20px;
+        font-style:italic;
+        border:2px solid green;
+        text-shadow:20px darkkhaki;
+    }
+    #box{
+        background-color:tan;
+        color:white;
+        width:500px;
+        border:2px solid green;
+        overflow:scroll;
+        height:400px;
+        line-height:20px;
+        font-weight:bolder;
+        text-align: justify;
+        font-family:arial;
+        font-style:italic;
+        font-variant:small-caps;
+        padding:40px;
+        margin-top:0px;
+    }
+    #box span{
+        font-size:2em;
+    }
+    #box2{
+        border:4px solid black;
+        color:white;
+        background-color: blue;
+        padding:20px;
+        writing-mode:sideways-rl;
+        clear:both;
+        margin-top:-97%;
+    }
+    body{
+        background-color:gray;
+    }
+ </style>
+</head>
+<body>
+   <h1>
+    Box Model Of HTML
+   </h1>
+   <div id="bol">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+    </div>
+   <div id="box">
+   <span> Lorem ipsum dolor sit amet,</span> consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante. 
+</div> 
+<div id="box2">
+    <span> Lorem ipsum dolor sit amet,</span> consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla erat congue, pulvinar diam quis, feugiat lectus. Donec vel pretium erat. Nunc id sodales erat. Sed eu vehicula leo. Cras massa nulla, rutrum vitae viverra et, convallis id dui. Proin eu tellus ex. Proin ut nisl sed leo tempor semper. Ut convallis ex tortor, et eleifend velit pellentesque ut. Donec viverra ex eget molestie ullamcorper. Nunc et turpis ante. 
+ </div> 
+</body>
+</html>
